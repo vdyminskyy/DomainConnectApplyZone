@@ -2,8 +2,8 @@ import json
 import os
 import copy
 import uuid
-from sigutil import get_publickey, verify_sig
-from validate import *
+from .sigutil import get_publickey, verify_sig
+from .validate import *
 
 """
 Zone
